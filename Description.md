@@ -65,9 +65,7 @@ crs(samples.shp) <-
 In order to create cite specific fertilizer prescription maps, we will
 follow the steps shown in the flowchart below.
 
-<img
-src="C:/Users/ismayiir/Desktop/R_Github/PrecisionAgriculture/Workflow.png"
-style="width:75.0%" />
+<img src="Workflow1.png" style="width:75.0%" />
 
 We are given only information at certain points. However, for
 prescribing fertilizer amount we need to extend the sampling information
