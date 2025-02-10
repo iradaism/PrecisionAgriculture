@@ -34,7 +34,7 @@ Set the working directory and import the given data. Sentinel-2 bands
 you have already preprocesed in the previous exercise.
 
 ``` r
-setwd("C:/GIS_for_env_applications/PrecisionAgriculture")
+setwd("PrecisionAgriculture")
 
 AOI <- shapefile("samplingField.shp")
 
@@ -65,7 +65,7 @@ crs(samples.shp) <-
 In order to create cite specific fertilizer prescription maps, we will
 follow the steps shown in the flowchart below.
 
-<img src="Workflow1.png" style="width:75.0%" />
+<img src="res/Workflow1.png" style="width:75.0%" />
 
 We are given only information at certain points. However, for
 prescribing fertilizer amount we need to extend the sampling information
