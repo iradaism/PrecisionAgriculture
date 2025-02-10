@@ -70,7 +70,7 @@ In order to create cite specific fertilizer prescription maps, we will follow th
 
 ![](C:/Users/ismayiir/Desktop/R_Github/PrecisionAgriculture/Workflow.png){width=75%}
 
-We are given only information at certain points. However, for prescribing fertilizer amount we need to extend the sampling information to the whole field. We can achieve this by interpolating sampling points. In this tutorial we will use Inverse Distance Weighted (IDW) method.
+We are given only information at certain points. However, for prescribing fertilizer amount we need to extend the sampling information to the whole field. We can achieve this by interpolating sampling points. In this tutorial we will use Inverse Distance Weighted (IDW) method. 
 
 **IDW** method is based on weighting the points where the influence of one point relative to another one declines as the distance to unknown point increases.
 
